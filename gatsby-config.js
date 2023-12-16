@@ -5,9 +5,6 @@ module.exports = {
     title: 'Dominik Ivošić',
     description:
       'Dominik Ivošić is an enthusiastic beginner in software development, passionate about exploring and mastering diverse technologies to create innovative and accessible solutions.',
-    siteUrl: '', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
