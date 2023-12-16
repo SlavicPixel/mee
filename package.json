@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "mee",
+  "description": "My personal website",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Originally designed by: Brittany Chiang <brittany.chiang@gmail.com>, forked by Dominik Ivošić <ivosicdominik@proton.me>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/SlavicPixel/mee"
   },
   "keywords": [
     "gatsby"
@@ -14,7 +14,7 @@
   "browserslist": "> 0.25%, not dead",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --host 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
