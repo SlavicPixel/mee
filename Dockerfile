@@ -1,5 +1,7 @@
+LABEL maintainer="Dominik Ivošić <ivosicdominik@proton.me>"
+
 FROM node:14
-EXPOSE 8000
+EXPOSE 9000
 WORKDIR /usr/src/app
 
 RUN npm install -g gatsby-cli
